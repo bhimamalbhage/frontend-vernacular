@@ -34,7 +34,7 @@
         <a class="nav-link" href="#gallery">Gallery</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link " href="#pricing">Pricing</a>
+        <a class="nav-link " href="#prices">Pricing</a>
       </li>
       <li class="nav-item">
         <a class="nav-link " href="#faq">F.A.Q</a>
@@ -213,20 +213,36 @@
 
 
 	<!-- Gallery -->
-	<!-- <section id="gallery">
-		<div class="text-center">
-			<h3>Gallery</h3>
-			<p style="padding: 10px 40px">Magnam dolores commodi susicipit. Etiam a ante iaculis, laoreet odio eu, pellentesque purus. Quisque a dolor, consectetur adipiscing elit.Quia fugiat sit in iste officis commodi quidem hic quas.</p>
+	<section id="gallery">
+		<div class="container text-center">
+			<h3 class="text-blue">Gallery</h3>
+			<p style="padding: 10px 40px;font-size: 18px;">Magnam dolores commodi susicipit. Etiam a ante iaculis, laoreet odio eu, pellentesque purus. Quisque a dolor, consectetur adipiscing elit.Quia fugiat sit in iste officis commodi quidem hic quas.</p>
 		</div>
-		<div>
-			
+		<div class="gallery">
+			<div class="gallery-box">
+				<img src="img/gallery/gallery-1.png">
+			</div>
+			<div class="gallery-box">
+			    <img src="img/gallery/gallery-2.png">
+			</div>
+			<div class="gallery-box">
+				<img src="img/gallery/gallery-3.png">
+			</div>
+			<div class="gallery-box gallery-scale">
+				<img src="img/gallery/gallery-4.png">
+			</div>
+			<div class="gallery-box">
+				<img src="img/gallery/gallery-5.png">
+			</div>
+			<div class="gallery-box">
+				<img src="img/gallery/gallery-6.png">
+			</div>
+			<div class="gallery-box">
+				<img src="img/gallery/gallery-4.png">
+			</div>
+
 		</div>
-	</section> -->
-
-	
-
-
-
+	</section>
 
 	<!-- Testimonials -->
 
@@ -269,6 +285,115 @@
 			</div>
 		</div>
 	</div>
+
+
+	<!-- Prices -->
+
+	<section id="prices">
+		<div class="block-heading text-center">
+			<h3 class="text-blue" style="padding-top: 50px">Pricing</h3>
+			<p style="padding: 10px 240px">Magnam dolores commodi susicipit. Etiam a ante iaculis, laoreet odio eu, pellentesque purus. Quisque a dolor, consectetur adipiscing elit.Quia fugiat sit in iste officis a dolor, consectetur adipiscing commodi quidem hic quas.</p>
+		</div>
+		<div class="promos">
+			<div class="promo">
+				<div class="deal">
+					<span>Free</span>
+				</div>
+				<p class="price">$0 <br> <span style="font-size: 16px;color: black;">per month</span> </p>
+
+				 <ul class="features">
+				    <li>Some great feature</li>
+				    <li>Another super feature</li>
+				    <li>And more...</li>   
+				 </ul>
+				  <button>Get Started</button>
+			</div>
+			<div class="promo scale">
+				<div class="deal">
+					<span>Business</span>
+				</div>
+				<p class="price">$29 <br> <span style="font-size: 16px;color: black;">per month</span> </p>
+				 <ul class="features">
+				    <li>Some great feature</li>
+				    <li>Another super feature</li>
+				    <li>And more...</li>   
+				 </ul>
+				  <button>Get Started</button>
+			</div>
+			<div class="promo">
+				<div class="deal">
+					<span>Developer</span>
+				</div>
+				<p class="price">$49 <br> <span style="font-size: 16px;color: black;">per month</span> </p>
+				 <ul class="features">
+				    <li>Some great feature</li>
+				    <li>Another super feature</li>
+				    <li>And more...</li>   
+				 </ul>
+				  <button>Get Started</button>
+			</div>
+		</div>
+	</section>
+
+	<!-- FAQ -->
+
+		<section id="faq">
+			<div style="background-color: #e1ece7;margin-bottom: 40px;">
+				<div class="block-heading text-center">
+			<h3 class="text-blue" style="padding-top: 50px">Frequently Asked Questions</h3>
+			<p style="padding: 10px 240px">Magnam dolores commodi susicipit. Etiam a ante iaculis, laoreet odio eu, pellentesque purus. Quisque a dolor, consectetur adipiscing elit.Quia fugiat sit in iste officis a dolor, consectetur adipiscing commodi consequ fugiat quidem hic quas.</p>
+				</div>
+
+			<div class="container" style="padding-bottom: 40px;">
+				
+				<div class="faq-box" id="1" onclick="triggerBox(this.id)">
+
+					<div style="padding: 20px 20px;">
+						<span style="padding-right: 7px;"><i class="fa fa-question-circle"></i></span>
+							<span class="text-blue">Non consectetur a erat nam at lectus urna duis</span>
+
+						<p id="d1" style="padding-top: 10px;">Feauiat pretium nibh ipsum consequiat. Tempus iaculis urna id voluptat lacus laoreet non curabtir gravida. Venentais lectus manga fringilla urna pottitar rhoncus dolor purus non.</p>
+					</div>
+
+				</div>
+
+				<div class="faq-box" id="2" onclick="triggerBox(this.id)">
+
+					<div style="padding: 20px 20px;">
+						<span style="padding-right: 7px;"><i class="fa fa-question-circle"></i></span>
+							<span class="text-blue">Non consectetur a erat nam at lectus urna duis</span>
+
+						<p class="hide" id="d2" style="padding-top: 10px;">Feauiat pretium nibh ipsum consequiat. Tempus iaculis urna id voluptat lacus laoreet non curabtir gravida. Venentais lectus manga fringilla urna pottitar rhoncus dolor purus non.</p>
+					</div>
+
+				</div>
+
+				<div class="faq-box" id="3" onclick="triggerBox(this.id)">
+
+					<div style="padding: 20px 20px;">
+						<span style="padding-right: 7px;"><i class="fa fa-question-circle"></i></span>
+							<span class="text-blue">Non consectetur a erat nam at lectus urna duis</span>
+
+						<p class="hide" id="d3" style="padding-top: 10px;">Feauiat pretium nibh ipsum consequiat. Tempus iaculis urna id voluptat lacus laoreet non curabtir gravida. Venentais lectus manga fringilla urna pottitar rhoncus dolor purus non.</p>
+					</div>
+
+				</div>
+
+				<div class="faq-box" id="4" onclick="triggerBox(this.id)">
+
+					<div style="padding: 20px 20px;">
+						<span style="padding-right: 7px;"><i class="fa fa-question-circle"></i></span>
+							<span class="text-blue">Non consectetur a erat nam at lectus urna duis</span>
+
+						<p class="hide" id="d4" style="padding-top: 10px;">Feauiat pretium nibh ipsum consequiat. Tempus iaculis urna id voluptat lacus laoreet non curabtir gravida. Venentais lectus manga fringilla urna pottitar rhoncus dolor purus non.</p>
+					</div>
+
+				</div>
+
+			</div>
+
+			</div>
+		</section>
 
 	<!-- Contact -->
 	<section id="contact">
@@ -339,6 +464,29 @@
 			</div>
 		</div>
 	</section>
+
+<!-- Smooth Scroll -->
+               <script src="smooth-scroll.js"></script>
+               <script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+
+	function triggerBox(id)
+	{
+	var ele = document.getElementById(`d${id}`);
+
+	 let isThere = ele.classList.contains("hide");
+
+ if(isThere == true)
+ {
+      ele.classList.remove("hide");
+ }
+ else{
+      ele.classList.add("hide");
+ }
+
+	}
+
+</script>
 
 </body>
 </html>
